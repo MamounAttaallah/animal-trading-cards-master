@@ -1,0 +1,77 @@
+/* add your CSS here */
+
+*{
+    box-sizing: border-box;
+}
+.Card-container{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    width: 322px;
+    margin: 5px;
+    box-shadow: 10px 10px #d5d5c3;
+    height: 100%;
+
+}
+
+.animal-name,img{
+    margin: 10px;
+
+}
+.animal-name{
+    border:1px solid lightgray;
+    border-radius: 5px;
+
+    
+    
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border:1px solid lightgray;
+
+}
+
+
+.owl-container{
+    border:1px solid lightgray;
+    margin: 10px;
+    width: 300px;
+
+
+}
+
+.italic{
+    font-style: italic;
+    margin: 10px;
+    word-break:  break-word;
+
+    
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+   
+
+}
+
+li{
+    
+}
+
+span{
+    font-weight: bold;
+
+}
+
+p{
+    margin: 10px;
+    word-break:  break-word;
+
+
+}
